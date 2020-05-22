@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import (QMainWindow, QLabel, QDesktopWidget, QSizePolicy, Q
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGES_PATH = os.path.join(ROOT_DIR, 'IMG')
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
